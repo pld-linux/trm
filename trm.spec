@@ -2,7 +2,7 @@ Summary:	TRM id generator
 Summary(pl):	Generator identyfikatorów TRM
 Name:		trm
 Version:	0.2.1
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://ftp.musicbrainz.org/pub/musicbrainz/%{name}-%{version}.tar.gz
@@ -10,7 +10,7 @@ Source0:	ftp://ftp.musicbrainz.org/pub/musicbrainz/%{name}-%{version}.tar.gz
 URL:		http://www.musicbrainz.org/products/trmgen/download.html
 BuildRequires:	libid3tag-devel
 BuildRequires:	libmad-devel
-BuildRequires:	libmusicbrainz-devel >= 2.0.0
+BuildRequires:	libmusicbrainz-devel >= 2.1.0
 BuildRequires:	libvorbis-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -28,7 +28,6 @@ jego identyfikator TRM (opisany na http://www.relatable.com/).
 
 %build
 %configure
-
 %{__make}
 
 %install
