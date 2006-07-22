@@ -7,6 +7,7 @@ License:	GPL
 Group:		Applications/Sound
 Source0:	ftp://ftp.musicbrainz.org/pub/musicbrainz/%{name}-%{version}.tar.gz
 # Source0-md5:	3f7e6c30cb91429313ca1a27df47e8bc
+Patch0:		%{name}-gcc4.patch
 URL:		http://www.musicbrainz.org/products/trmgen/download.html
 BuildRequires:	libid3tag-devel
 BuildRequires:	libmad-devel
@@ -25,6 +26,7 @@ jego identyfikator TRM (opisany na http://www.relatable.com/).
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 %configure
