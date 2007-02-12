@@ -1,5 +1,5 @@
 Summary:	TRM id generator
-Summary(pl):	Generator identyfikatorów TRM
+Summary(pl.UTF-8):   Generator identyfikatorÃ³w TRM
 Name:		trm
 Version:	0.2.1
 Release:	2
@@ -20,8 +20,8 @@ The trm program will decode the first 30 seconds of audio file and
 then spit out a TRM id (see http://www.relatable.com/ for details) on
 stdout.
 
-%description -l pl
-Program trm dekoduje pierwsze 30 sekund pliku d¼wiêkowego i wypisuje
+%description -l pl.UTF-8
+Program trm dekoduje pierwsze 30 sekund pliku dÅºwiÄ™kowego i wypisuje
 jego identyfikator TRM (opisany na http://www.relatable.com/).
 
 %prep
