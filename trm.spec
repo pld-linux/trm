@@ -1,5 +1,5 @@
 Summary:	TRM id generator
-Summary(pl.UTF-8):   Generator identyfikatorów TRM
+Summary(pl.UTF-8):	Generator identyfikatorów TRM
 Name:		trm
 Version:	0.2.1
 Release:	2
