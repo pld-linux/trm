@@ -26,7 +26,7 @@ jego identyfikator TRM (opisany na http://www.relatable.com/).
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure
